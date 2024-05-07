@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T03:04:59.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="HEig7mfY25CXNNMO9STG" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T03:05:41.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="2wHWfB6WqffZB8K9yhJp" version="24.2.0" type="github">
   <diagram name="第 1 页" id="6ow91wketID_dhd1SO-U">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="y-HEAHyeAgIempx5VeQR-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="y-HEAHyeAgIempx5VeQR-1">
           <mxGeometry x="45" y="70" width="10" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="y-HEAHyeAgIempx5VeQR-3" value="判断是否有证书若无则流程向下走" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="y-HEAHyeAgIempx5VeQR-1">
+        <mxCell id="y-HEAHyeAgIempx5VeQR-3" value="判断是否有电子印章若无则流程向下走" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="y-HEAHyeAgIempx5VeQR-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="160" as="sourcePoint" />
             <Array as="points">
@@ -55,13 +55,13 @@
             <mxPoint x="350" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y-HEAHyeAgIempx5VeQR-13" value="调用云签服务获取证书列表接口" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="y-HEAHyeAgIempx5VeQR-4">
+        <mxCell id="y-HEAHyeAgIempx5VeQR-13" value="调用云签服务获取印章列表接口" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="y-HEAHyeAgIempx5VeQR-4">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="300" y="140" as="sourcePoint" />
             <mxPoint x="380" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y-HEAHyeAgIempx5VeQR-14" value="返回证书列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="y-HEAHyeAgIempx5VeQR-2">
+        <mxCell id="y-HEAHyeAgIempx5VeQR-14" value="返回印章列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="y-HEAHyeAgIempx5VeQR-2">
           <mxGeometry x="-0.0286" y="-10" relative="1" as="geometry">
             <mxPoint x="650" y="200" as="sourcePoint" />
             <mxPoint x="300" y="200" as="targetPoint" />
